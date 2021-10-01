@@ -71,7 +71,7 @@
 
 .about {
   margin: 4em 0;
-  padding: 8em;
+  padding: 6em;
   position: relative;
 }
 .about {
@@ -81,7 +81,7 @@
 }
 .about h1 {
   color: #ee4002;
-  margin-bottom: 2em;
+  margin: 2em;
   margin-top: 4em;
 }
 .about img {
