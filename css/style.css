@@ -1,0 +1,106 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+#bg-login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-login {
+  width: 300px;
+  min-height: 200px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.box-login h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.input-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.header {
+  background-image: url("../img/jumb.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+}
+.description {
+  position: absolute;
+  opacity: 50%;
+  top: 45%;
+  margin: auto;
+  background: #ffff;
+  padding: 2em;
+}
+.description h1 {
+  color: #000;
+}
+.description button {
+  border: 1px solid #ee4002;
+  background: #ee4002;
+  color: #fff;
+}
+
+.about {
+  margin: 4em 0;
+  padding: 6em;
+  position: relative;
+}
+.about {
+  margin: 4em 0;
+  padding: 2rem;
+  position: relative;
+}
+.about h1 {
+  color: #ee4002;
+  margin: 2em;
+}
+.about img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.about span {
+  display: block;
+  color: #ee4002;
+  left: 115px;
+}
+.about .desc {
+  padding: 2em;
+  border-left: 4px solid #ee4002;
+}
+.about .desc h3 {
+  color: #ee4002;
+}
+.about .desc p {
+  line-height: 2;
+  color: #888;
+}
