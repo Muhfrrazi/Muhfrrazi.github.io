@@ -76,12 +76,13 @@
 }
 .about {
   margin: 4em 0;
-  padding: 2rem;
+  padding: 1rem;
   position: relative;
 }
 .about h1 {
   color: #ee4002;
-  margin: 2em;
+  margin-top: 4em;
+  margin-bottom: 2em;
 }
 .about img {
   height: 100%;
