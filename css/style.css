@@ -1,9 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 * {
-  font-family: "Quicksand", sans-serif;
-}
-
-body {
-  min-height: 3000px;
+  font-family: "poppins", sans-serif;
 }
 
 #bg-login {
@@ -11,6 +8,10 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+.navver li:hover a {
+  border-bottom: 3px solid #ee4002;
 }
 
 .box-login {
