@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*!
+ * ImageHover.css - http://www.imagehover.io
+ * Version 2.0
+ * Author: Ciarán Walsh
+
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+
+ */
+[class^="imghvr-"],
+[class*=" imghvr-"] {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  max-width: 100%;
+  background-color: #fff;
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+[class^="imghvr-"] > img,
+[class*=" imghvr-"] > img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+[class^="imghvr-"] figcaption,
+[class*=" imghvr-"] figcaption {
+  background-color: #135796;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+}
+
+[class^="imghvr-"] figcaption h1,
+[class^="imghvr-"] figcaption h2,
+[class^="imghvr-"] figcaption h3,
+[class^="imghvr-"] figcaption h4,
+[class^="imghvr-"] figcaption h5,
+[class^="imghvr-"] figcaption h6,
+[class*=" imghvr-"] figcaption h1,
+[class*=" imghvr-"] figcaption h2,
+[class*=" imghvr-"] figcaption h3,
+[class*=" imghvr-"] figcaption h4,
+[class*=" imghvr-"] figcaption h5,
+[class*=" imghvr-"] figcaption h6 {
+  color: #ffffff;
+}
+
+[class^="imghvr-"] a,
+[class*=" imghvr-"] a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+[class^="imghvr-"],
+[class*=" imghvr-"],
+[class^="imghvr-"]:before,
+[class^="imghvr-"]:after,
+[class*=" imghvr-"]:before,
+[class*=" imghvr-"]:after,
+[class^="imghvr-"] *,
+[class*=" imghvr-"] *,
+[class^="imghvr-"] *:before,
+[class^="imghvr-"] *:after,
+[class*=" imghvr-"] *:before,
+[class*=" imghvr-"] *:after {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+/* imghvr-fade-*
+   ----------------------------- */
+[class^="imghvr-fade"] figcaption,
+[class*=" imghvr-fade"] figcaption {
+  opacity: 0;
+}
+
+[class^="imghvr-fade"]:hover figcaption,
+[class*=" imghvr-fade"]:hover figcaption {
+  opacity: 1;
+}
+
+[class^="imghvr-fade"]:hover > img,
+[class^="imghvr-fade"]:hover figcaption,
+[class*=" imghvr-fade"]:hover > img,
+[class*=" imghvr-fade"]:hover figcaption {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+/* imghvr-push-*
+   ----------------------------- */
+[class^="imghvr-push-"]:hover figcaption,
+[class*=" imghvr-push-"]:hover figcaption {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+/* imghvr-push-up
+   ----------------------------- */
+.imghvr-push-up figcaption {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  background-color: #ee4002;
+}
+
+.imghvr-push-up:hover > img {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
