@@ -2,6 +2,10 @@
   font-family: "Quicksand", sans-serif;
 }
 
+body {
+  min-height: 3000px;
+}
+
 #bg-login {
   display: flex;
   height: 100vh;
@@ -98,4 +102,14 @@
 .about .desc p {
   line-height: 2;
   color: #888;
+}
+
+.product {
+  background-color: #f6f7f6;
+  padding: 1rem;
+}
+.product .our-product {
+  color: #ee4002;
+  margin: 1.5em;
+  margin-top: 3.5em;
 }
