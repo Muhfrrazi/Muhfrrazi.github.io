@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+.navbar {
+  background-color: #222222;
+}
+
 .navver li:hover a {
   border-bottom: 3px solid #ee4002;
 }
@@ -51,6 +55,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100%;
 }
 
 .overlay {
