@@ -118,6 +118,10 @@
   padding-top: 3.5em;
 }
 
+.product img {
+  background-color: #fff;
+}
+
 .contact {
   min-height: 775px;
   padding: 15px;
