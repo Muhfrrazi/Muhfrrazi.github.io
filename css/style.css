@@ -10,10 +10,6 @@
   align-items: center;
 }
 
-.navbar {
-  background-color: #222222;
-}
-
 .navver li:hover a {
   border-bottom: 3px solid #ee4002;
 }
