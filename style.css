@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #343a40;
+  color: #fff;
+}
+.jumbotron img {
+  background-color: #343a40;
+}
+#projects {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.projects .card img {
+  width: 500px;
+}
+.navbar {
+  background-color: #343a40;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  padding-top: 5rem;
+}
+.jumbotron h2 {
+  font-size: xx-large;
+  color: black;
+  display: inline;
+}
+.jumbotron .textAbove {
+  color: red;
+  font-weight: 500;
+}
+.intro h2 {
+  color: #fff;
+}
+.typeText::after {
+  content: "|";
+  animation: none;
+  color: #fff;
+}
+
+.showAnim.typeText::after {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+footer {
+  background-color: #343a40;
+}
