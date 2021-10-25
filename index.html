@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Boostrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -11,25 +12,18 @@
 
     <!-- Boostrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/imagehover.css">
-    <link rel="shortcut icon" href="img/logo.jpeg">
-    <script src="https://kit.fontawesome.com/6213932414.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 
-    <title>KING CHARCOAL INDO</title>
+    <title>My Portofolio | Muhammad Fachrurrazi</title>
 
 </head>
 
-<body id="home" class="container-fixed">
+<body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #222222;">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo.jpeg" alt="logo" width="180px">
-            </a>
+            <a class="navbar-brand" href="#">Muhammad Fachrurrazi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +37,7 @@
                         <a class="nav-link active" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#product">Product</a>
+                        <a class="nav-link active" href="#projects">Project</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#contact">Contact</a>
@@ -55,133 +49,92 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <header class="header">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="description ">
-                <h1><b>King Charcoal Indonesia</b></h1>
-                <h4><b>We Are The Best Supplier of Wood Charcoal and Briquettes</b></h4>
-                <a href="#product"><button class="btn btn-outline-secondary btn-lg">Our Product</button></a>
+    <section class="jumbotron text-center">
+        <img src="img/DSC_6029.JPG" alt="Razi" width="200" class="rounded-circle img-thumbnail">
+        <div wrapper>
+            <h1 class=" display-4">Muhammad Fachrurrazi</h1>
+            <div class="intro">
+                <h2 class="textAbove">I am</h2>
+                <h2 class="typeText"></h2>
             </div>
-        </div>
-    </header>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="1"
+                    d="M0,64L48,96C96,128,192,192,288,192C384,192,480,128,576,128C672,128,768,192,864,208C960,224,1056,192,1152,176C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+    </section>
     <!-- Akhir Jumbotron -->
 
     <!-- About -->
-    <section class="about" id="about">
-        <div class="container">
-            <h1 class="about-me text-center">About</h1>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 desc">
-                    <span class="text-justify">
-                        <h1>KING CHARCOAL</h1>
-                        <h4>already has export experience by the owner.</h4><br><br>
-                    </span>
-                    <p>
-                        We focus on Charcoal products, with the best production line, distribution line and quality
-                        involved. Started our business in trading the first time, and we expanded to become a
-                        manufacturer with quality products.<br><br></p>
-                    <p>We have a strategy for success, namely by developing a network of charcoal farmers throughout
-                        Indonesia that we manage. And we ensure readiness in our processing plants, to be able to
-                        produce the best products with the best quality.<br><br></p>
-                    <p> Diligence, smart work and innovative
-                        are our main concerns so we welcome all brand owners from charcoal business to be our business
-                        partners. </p>
+    <section id="about">
+        <div class="conteiner">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>About Me</h2>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top:3rem ;">
-                    <img src="./img/about.png" class="img-fluid">
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4">
+                    <p>I am a student of Lambung Mangkurat University, majoring in information technology. I have
+                        skills in the field of website programming such as html, css, PHP, javascript and graphic design
+                        .</p>
+                </div>
+                <div class="col-md-4">
+                    <p>I like to find out things that are new to me and able to learn it quite well, be responsible,
+                        time management, and sociable. .</p>
                 </div>
             </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#343a40" fill-opacity="1"
+                d="M0,128L48,128C96,128,192,128,288,154.7C384,181,480,235,576,240C672,245,768,203,864,165.3C960,128,1056,96,1152,96C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- Akhir About -->
 
-    <!-- Product -->
-    <section class="product" id="product">
-        <div>
-            <div class="container">
-                <h1 class="our-product text-center">Our Product</h1>
-                <P class="text-center" style="padding-top:10px; padding-bottom: 10px;">
-                    <b style="font-size: 24px;">HALABAN WOOD CHARCOAL</b>
-                    is
-                    charcoal fuel which is
-                    commonly used to burn food
-                    and is made from
-                    hardwood
-                    trees which are widely
-                    distributed in Kalimantan, Indonesia. The advantage of Halaban Charcoal compared to other
-                    charcoal
-                    is that the roasting process is better because the fire burns evenly and perfectly, the smoke
-                    does
-                    not fly, thus improving the quality of the taste of the food
-                </P>
-                <div class="row justify-content-center ps-4 pe-4">
-                    <div class="col-md-4 mb-3">
-                        <div class="card">
-                            <figure class="imghvr-push-up">
-                                <img src="img/grade A.png" alt="example-image" class="card-img-top">
-                                <figcaption>
-                                    <h3
-                                        class="ih-fade-down ih-delay-sm position-absolute top-50 start-50 translate-middle ">
-                                        Grade A</h3>
-                                    <a href=""></a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class=" col-md-4 mb-3">
-                        <div class="card">
-                            <figure class="imghvr-push-up">
-                                <img src="img/grade B.png" alt="example-image" class="card-img-top">
-                                <figcaption>
-                                    <h3
-                                        class="ih-fade-down ih-delay-sm position-absolute top-50 start-50 translate-middle ">
-                                        Grade B</h3>
-                                    <a href=""></a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card">
-                            <figure class="imghvr-push-up">
-                                <img src="img/grade mix.png" alt="example-image" class="card-img-top">
-                                <figcaption>
-                                    <h3
-                                        class="ih-fade-down ih-delay-sm position-absolute top-50 start-50 translate-middle  text-center">
-                                        Grade Mix <br>(A & B)</h3>
-                                    <a href=""></a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
+    <!-- Projects -->
+    <section id="projects">
+        <div class="conteiner">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Projects</h2>
                 </div>
-                <div class="btn-wrapper">
-                    <a href="https://api.whatsapp.com/send?phone=+6281254537545&text=Hai, I want to order charcoal."
-                        target="_blank" class="btn whatsapp">
-                        <span class="fa fa-whatsapp"></span>
-                        Order Via Whatsapp
-                    </a>
-                    <a href="https://www.instagram.com/kingcharcoalindo/" target="_blank" class="btn instagram">
-                        <span class="fa fa-instagram"></span>
-                        Instagram
+            </div>
+            <div class="row justify-content-center ps-4 pe-4">
+                <div class="col-md-4 mb-3">
+                    <a href="https://muhfrrazi.github.io/" target="_blank">
+                        <div class="card text-dark">
+                            <img src="img/projek 1.png" class="card-img-top" alt="Keyboard 1">
+                            <div class="card-body">
+                                <p class="card-text"><b>Website Ekspor Arang</b></p>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
             </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,192L48,176C96,160,192,128,288,138.7C384,149,480,203,576,234.7C672,267,768,277,864,282.7C960,288,1056,288,1152,266.7C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </section>
-    <!-- Akhir Product -->
+    <!-- Akhir Projects -->
 
     <!-- Contact -->
-    <section id="contact" class="contact">
+    <section id="contact">
         <div class="container">
-            <h1 class="cont text-center">Contact</h1>
             <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4" style="padding-top: 30px;">
-                    <div class="card text-white" style="background-color: #222222;">
-                        <div class=" card-body text-center">
+                <div class="col-md-4">
+                    <div class="card text-light" style="background-color: #343a40;">
+                        <div class="card-body text-center">
                             <h5 class="card-title">Contact Me</h5>
                         </div>
                     </div>
@@ -199,7 +152,7 @@
                     </div>
                     <form name="Contact Form">
                         <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
+                            <label for="name" class="form-label">Nama Lengkap</label>
                             <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
                         </div>
                         <div class="mb-3">
@@ -207,39 +160,38 @@
                             <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
                         </div>
                         <div class="mb-3">
-                            <label for="pesan" class="form-label">Message</label>
+                            <label for="pesan" class="form-label">Pesan</label>
                             <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                         </div>
-                        <button type="submit" class="btn text-light btn-kirim"
-                            style="background-color: #ee4002;">Submit</button>
+                        <button type="submit" class="btn btn-kirim text-light"
+                            style="background-color: red;">Kirim</button>
 
-                        <button class="btn btn-primary btn-loading d-none" type="button" disabled
-                            style="background-color: #ee4002;">
-                            <span class=" spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        <button class="btn btn-secondary btn-loading d-none" type="button" disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                             Loading...
                         </button>
                     </form>
                 </div>
             </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#343a40" fill-opacity="1"
+                d="M0,192L80,202.7C160,213,320,235,480,208C640,181,800,107,960,90.7C1120,75,1280,117,1360,138.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <p class="copyright">King Charoal Indonesia © 2021</p>
-            </div>
-        </footer>
-    </div>
+    <footer class="text-white text-center pb-5 fs-5">
+        <p class="copyright">Muhammad Fachrurrazi © 2021 <a href="https://www.instagram.com/muhfrrazi/"></a></p>
+    </footer>
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
 
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycby8vc9NbLtIjJx0h-k55QER-sVYBNQQkf6XS1RWEOvM6x5V3iicLu3f8WRAc2oPL5rd/exec'
@@ -254,10 +206,7 @@
             //tampilkan tombol loading, hilangkan tombol kirim
             btnLoading.classList.toggle('d-none');
             btnKirim.classList.toggle('d-none');
-            fetch(scriptURL, {
-                method: 'POST',
-                body: new FormData(form)
-            })
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
                     // tampilkan tombol kirim, hilangkan tombol loading
                     btnLoading.classList.toggle('d-none');
