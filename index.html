@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/imagehover.css">
     <link rel="shortcut icon" href="img/logo.jpeg">
+    <script src="https://kit.fontawesome.com/6213932414.js" crossorigin="anonymous"></script>
 
     <title>KING CHARCOAL INDO</title>
 
@@ -155,10 +156,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="btn-wrapper">
+                    <a href="https://api.whatsapp.com/send?phone=+6281254537545&text=Hai, I want to order charcoal."
+                        target="_blank" class="btn whatsapp">
+                        <span class="fa fa-whatsapp"></span>
+                        Order Via Whatsapp
+                    </a>
+                    <a href="https://www.instagram.com/kingcharcoalindo/" target="_blank" class="btn instagram">
+                        <span class="fa fa-instagram"></span>
+                        Instagram
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Akhir PRoduct -->
+    <!-- Akhir Product -->
 
     <!-- Contact -->
     <section id="contact" class="contact">
@@ -167,50 +179,48 @@
             <div class="row text-center mb-3">
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <div class="card text-white" style="background-color: #222222;"">
+                <div class="col-md-4" style="padding-top: 30px;">
+                    <div class="card text-white" style="background-color: #222222;">
                         <div class=" card-body text-center">
-                        <h5 class="card-title">Contact Me</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-                            iure.</p>
+                            <h5 class="card-title">Contact Me</h5>
+                        </div>
                     </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Location</li>
+                        <li class="list-group-item">My Office</li>
+                        <li class="list-group-item">Jl. Ir. P. H. Muhammad Noor, Hulu Sungai Tengah</li>
+                        <li class="list-group-item">South Borneo, Indonesia</li>
+                    </ul>
                 </div>
-                <ul class="list-group">
-                    <li class="list-group-item">Location</li>
-                    <li class="list-group-item">My Office</li>
-                    <li class="list-group-item">Jl. Ir. P. H. Muhammad Noor, Hulu Sungai Tengah</li>
-                    <li class="list-group-item">South Borneo, Indonesia</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                    <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-                <form name="Contact Form">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+                <div class="col-md-6">
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                        <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="pesan" class="form-label">Message</label>
-                        <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-                    </div>
-                    <button type="submit" class="btn text-light btn-kirim"
-                        style="background-color: #ee4002;">Submit</button>
+                    <form name="Contact Form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Message</label>
+                            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                        </div>
+                        <button type="submit" class="btn text-light btn-kirim"
+                            style="background-color: #ee4002;">Submit</button>
 
-                    <button class="btn btn-primary btn-loading d-none" type="button" disabled
-                        style="background-color: #ee4002;">
-                        <span class=" spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                        Loading...
-                    </button>
-                </form>
+                        <button class="btn btn-primary btn-loading d-none" type="button" disabled
+                            style="background-color: #ee4002;">
+                            <span class=" spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
+                    </form>
+                </div>
             </div>
-        </div>
         </div>
     </section>
     <!-- Akhir Contact -->
@@ -244,7 +254,10 @@
             //tampilkan tombol loading, hilangkan tombol kirim
             btnLoading.classList.toggle('d-none');
             btnKirim.classList.toggle('d-none');
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
                 .then(response => {
                     // tampilkan tombol kirim, hilangkan tombol loading
                     btnLoading.classList.toggle('d-none');

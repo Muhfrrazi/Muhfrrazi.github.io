@@ -2,7 +2,9 @@
 * {
   font-family: "poppins", sans-serif;
 }
-
+body {
+  background-color: #282c34;
+}
 #bg-login {
   display: flex;
   height: 100vh;
@@ -106,13 +108,37 @@
 }
 .about .desc p {
   line-height: 2;
-  color: #888;
+  color: #fff;
 }
-
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  justify-content: center;
+}
+.btn-wrapper {
+  text-align: center;
+}
+.btn:hover {
+  opacity: 1;
+}
+.whatsapp {
+  background-color: #51a438;
+  margin: 10px 0 20px 0;
+}
+.instagram {
+  background-color: #dd2a7b;
+  margin: 10px 0 20px 15px;
+}
+.fa {
+  margin-right: 5px;
+}
 .product {
   background-color: #f6f7f6;
   margin-top: 1rem;
-  min-height: 750px;
+  min-height: 120vh;
 }
 .product .our-product {
   color: #ee4002;
@@ -132,7 +158,9 @@
   margin: 1.5em;
   margin-top: 3.5em;
 }
-
+.contact .form-label {
+  color: #fff;
+}
 .footer-dark {
   padding: 30px 0;
   background-color: #222222;
