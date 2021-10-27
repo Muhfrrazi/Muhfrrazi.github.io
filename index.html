@@ -126,7 +126,7 @@
     <!-- Akhir Projects -->
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="contact">
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col">
@@ -134,7 +134,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4">
+                <div class="col-md-4" class="card">
                     <div class="card text-light" style="background-color: #343a40;">
                         <div class="card-body text-center">
                             <h5 class="card-title">Contact Me</h5>
@@ -146,15 +146,20 @@
                         <li class="list-group-item">Jl. Ir. P. H. Muhammad Noor, Hulu Sungai Tengah</li>
                         <li class="list-group-item">South Borneo, Indonesia</li>
                     </ul>
+                    <div class="map-wrapper">
+                        <iframe class="maps"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7971.519378189666!2d115.37546617346281!3d-2.5845663745171135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de56eaa61d1869b%3A0x6a1f877b843e50a2!2sBarabai%20Utara%2C%20Barabai%2C%20Kabupaten%20Hulu%20Sungai%20Tengah%2C%20Kalimantan%20Selatan!5e0!3m2!1sid!2sid!4v1635348828696!5m2!1sid!2sid"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 form-submit">
                     <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
                         <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
-                    <form name="Contact Form">
+                    <form name="Contact Form ">
                         <div class="mb-3">
-                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <label for="name" class="form-label">Name</label>
                             <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
                         </div>
                         <div class="mb-3">
@@ -162,11 +167,11 @@
                             <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
                         </div>
                         <div class="mb-3">
-                            <label for="pesan" class="form-label">Pesan</label>
+                            <label for="pesan" class="form-label">Message</label>
                             <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                         </div>
                         <button type="submit" class="btn btn-kirim text-light"
-                            style="background-color: red;">Kirim</button>
+                            style="background-color: red;">Submit</button>
 
                         <button class="btn btn-secondary btn-loading d-none" type="button" disabled>
                             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -200,7 +205,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="img/CV_Muhammad Fachrurrazi.jpg" alt="">
+                    <img src="img/CV_Muhammad Fachrurrazi.jpg" width="760px" alt="">
                 </div>
             </div>
         </div>
