@@ -114,6 +114,9 @@ section {
     padding: 10px 0;
     font-size: 24px;
   }
+  footer {
+    font-size: 21px;
+  }
 }
 .contact {
   min-height: 100%px;
