@@ -61,7 +61,10 @@ section {
   outline: none;
   margin-top: 2rem;
 }
-
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 .btn-resume:hover {
   box-shadow: inset 300px 0 0 0 red;
   color: #222126;
@@ -115,7 +118,7 @@ section {
     font-size: 24px;
   }
   footer {
-    font-size: 21px;
+    font-size: 21pxz;
   }
 }
 .contact {
